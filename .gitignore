@@ -1,0 +1,31 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+.env
+.env.*
+!.env.example
+!**/.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.eggs/
+dist/
+*.egg
+
+# Generated / local tooling (models under models/ are tracked)
+log/
+build/
+install/
+
+.DS_Store
+Thumbs.db
+.idea/
+
+*.pem
